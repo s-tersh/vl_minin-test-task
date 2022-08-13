@@ -31,7 +31,7 @@ const HeaderSection = () => {
 
     return (
         <section className="w-full h-fit relative overflow-hidden">
-            <div ref={triggerRef} className="container relative lg:pt-[100px] pb-[80px]">
+            <div ref={triggerRef} className="container relative px-0 lg:pt-[100px] pb-[80px]">
                 <div className="relative flex flex-col justify-center lg:block py-[67px] px-10 lg:px-0 top-0 left-0 lg:-left-[95px] -right-full bg-blue-violet bg-[url(./assets/header_bg.svg)] bg-bottom bg-no-repeat after:content-[''] after:absolute after:hidden lg:after:block after:bg-blue-violet after:bottom-0 after:left-0 after:right-0 after:top-0 after:translate-x-full text-white lg:rounded-tl-[40px] lg:rounded-bl-[40px] lg:pl-[95px] z-10">
                     <h1 ref={text1Ref} className="font-semibold text-center lg:text-left mb-[20px] xl:mb-[40px]">Профессия <br/> Frontend — разработчик</h1>
                     <h2 ref={text2Ref} className="text-[30px] hidden md:block font-semibold text-center lg:text-left lg:max-w-[547px] xl:max-w-[747px] mb-[26px]">Стань с нуля продвинутым Junior разработчиком за 7 месяцев с знанием технологий больше, чем у других кандидатов</h2>
@@ -40,7 +40,7 @@ const HeaderSection = () => {
                 </div>
                 <img ref={dots1Ref} alt="" src="./images/background_dots.svg" className="absolute -left-[140px] bottom-[35px] hidden lg:block"/>
             </div>
-            <figure className="absolute w-[830px] h-[600px] z-20 left-[60%] bottom-[79px] hidden lg:block">
+            <figure className="absolute w-[830px] h-[600px] z-20 left-[60%] right-0 bottom-[79px] hidden lg:block">
                 <div ref={releaseRef} className="absolute max-w-[396px] px-6 pt-10 pb-[30px] z-10 rounded-3xl bg-white shadow-xl -left-[100px] -bottom-16">
                     <div ref={releaseButtonRef} className="absolute w-[76px] h-[76px] rounded-3xl flex items-center justify-center bg-[#7F76FF] -top-[49px] left-[62px]">
                         <img alt="" src="./images/console.svg" />

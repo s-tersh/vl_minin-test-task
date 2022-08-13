@@ -29,9 +29,9 @@ const ProjectSection = () => {
         
           .fromTo(imageRef.current, {opacity: 0, scale:0}, {opacity: 1, scale: 1, duration: 1, ease: "elastic.out(1, 1)"})
 
-          .fromTo(lBlockRef.current, {xPercent: -110}, {xPercent: 0, duration: 2, ease: "back.out(1.7)"})
+          .fromTo(lBlockRef.current, {xPercent: -115}, {xPercent: 0, duration: 2, ease: "back.out(1.7)"})
 
-          .fromTo(rBlockRef.current, {xPercent: 110}, {xPercent: 0, duration: 2, ease: "back.out(1.7)"})
+          .fromTo(rBlockRef.current, {xPercent: 115}, {xPercent: 0, duration: 2, ease: "back.out(1.7)"})
 
     }, [])
 
@@ -41,7 +41,7 @@ const ProjectSection = () => {
                 <h1 ref={headerRef} className="text-center pb-10 pt-[117px] before:w-[26px] before:h-[26px] before:mr-[30px]">Как именно ты станешь разработчиком</h1>
                 <p ref={descriptionRef} className="text-center text-[24px] max-w-[970px] mx-auto">На курсе ты не просто изучаешь теоретический материал. В процессе изучения ты повторяешь за действующим разработчиком, после чего <strong>закрепляешь знания на заданиях и проектах.</strong></p>
                 <div className="relative pt-[60px]">
-                    <div ref={lBlockRef} className="md:absolute bg-white border border-blue-violet rounded-2xl py-6 px-5 top-[112px] max-w-[325px] text-[14px] z-10">
+                    <div ref={lBlockRef} className="md:absolute mb-6 md:mb-0 bg-white border border-blue-violet rounded-2xl py-6 px-5 top-[112px] w-full md:max-w-[325px] text-[14px] z-10">
                         <h3 className="text-blue-violet uppercase font-semibold pb-[14px]">2 командныйх проекта</h3>
                         <p className="pb-4">Симуляция комерческого проекта - получаете ТЗ и организовываете командную разработку. Прокачивая навыки для будущей работы.</p>
                         <p><strong>Проекты на тему:</strong></p>
@@ -50,7 +50,7 @@ const ProjectSection = () => {
                             <li>Cайт на React, презентующий команду участников</li>
                         </ul>
                     </div>
-                    <div ref={rBlockRef} className="md:absolute bg-white right-0 bottom-[120px] lg:bottom-[97px] border border-blue-violet rounded-2xl py-6 px-5 max-w-[390px] text-[14px] z-10">
+                    <div ref={rBlockRef} className="md:absolute mb-6 md:mb-0 bg-white right-0 bottom-[120px] lg:bottom-[97px] border border-blue-violet rounded-2xl py-6 px-5 w-full md:max-w-[390px] text-[14px] z-10">
                         <h3 className="text-blue-violet uppercase font-semibold pb-[14px]">Индивидуальные проекты</h3>
                         <p>Чтобы свободно чуствовать себя на позиции junior необходим опыт разработки.</p>
                         <p className="pb-4">Вы создадите 3 проекта изучая материал от простого к сложному:</p>

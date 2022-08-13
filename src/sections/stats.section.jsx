@@ -37,7 +37,7 @@ const StatSection = () => {
                         return (
                         <div key={statItem.text} className="stat__item flex flex-col xl:flex-row items-center gap-1 lg:gap-4">
                             <h1 className="font-semibold text-orange">{statItem.value}</h1>
-                            <p className="leading-5">{statItem.text}</p>
+                            <p className="text-center md:text-left leading-5">{statItem.text}</p>
                         </div>
                         )
                     })

@@ -42,4 +42,8 @@
   h1 {
     @apply font-bold text-[36px] md:text-[45px] xl:text-[54px];
   }
+
+  .container {
+	@apply px-4 sm:px-10;
+  }
 }

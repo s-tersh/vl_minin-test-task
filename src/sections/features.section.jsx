@@ -66,7 +66,7 @@ const FeaturesSection = () => {
 
   return (
     <section>
-        <div className="h-screen sticky top-0 p-[30px]">
+        <div className="h-screen w-full overflow-hidden sticky top-0 p-4 md:p-[30px]">
           <div ref={triggerRef} className="w-full h-full bg-black rounded-[20px] text-white p-[60px]">
             <div className="container">
               <h1 ref={headerRef} className="text-center pb-10 opacity-0">Что тебе даст прохождение курса?</h1>
